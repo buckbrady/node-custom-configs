@@ -1,12 +1,17 @@
 {
-  "name": "custom-configs",
+  "name": "node-custom-configs",
   "version": "1.0.0",
-  "description": "",
+  "description": "collection of configs for commonly used NodeJS/Javascript/Typescript tooling",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Buck Brady <bbrady145@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "*",
+    "eslint": "*",
+    "prettier": "*"
+  }
 }
